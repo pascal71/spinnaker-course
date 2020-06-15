@@ -11,6 +11,9 @@ node {
 	stage('Build lab-book with asciidoctor') {
       sh 'asciidoctor -b html lab_book.asc'
 	}
+	stage('Configure index.html') {
+	    sh "echo '<BR><BR><BR><B>${JOB_NAME}:${BUILD_ID}</B><BR>' >> index.html"
+	}
 
 	stage('Build Container') {
 		docker.build('${JOB_NAME}', '-f src/main/docker/Dockerfile .')
