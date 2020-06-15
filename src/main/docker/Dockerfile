@@ -1,2 +1,4 @@
 FROM nginx:alpine
-COPY . /usr/share/nginx/html
+COPY lab_book.html /usr/share/nginx/html
+COPY spinnaker.html /usr/share/nginx/html
+COPY images /usr/share/nginx/html
