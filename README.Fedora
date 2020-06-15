@@ -1,0 +1,36 @@
+For those trainers that are working from a Fedora workstation, these instructions will hep you setup an environemnt to proces the aciidoctor source files.
+
+This has been tested on Fedora 31 as per 12/5/2020
+
+The following components are needed:
+	
+1. The ZSH shell 
+
+   # sudo dnf install zsh -y
+
+2. Ascii doctor
+
+   # sudo dnf install asciidoctor -y
+
+3. The Rubygem 'pygments.rb'
+
+   This one needs to be pulled in an compiled using gem.
+   As a ruby devel libs is needed we need to install that one first.
+
+   # sudo dnf install ruby-devel -y
+   
+   Now install the pygments.rb gem
+
+   # gem install pygments.rb
+
+4. Decktape to create PDF output
+
+   Decktape is a nodejs app so we need to pull that one in using npm.
+
+   # sudo npm install -g decktape
+
+   But.. currently this throws a ton of errors that I have to look into yet. :)
+
+   
+
+   Questions/additions/remarks/critiques: pascal@poortier.nl

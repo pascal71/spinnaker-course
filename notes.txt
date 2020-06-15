@@ -1,0 +1,22 @@
+
+
+
+Lab Ideas
+---------
+
+1. Set up a trigger from Git
+2. Create an AMI or Docker Images using Baking Process
+3. Tag an AMI (Seal of Approval)
+4. Service Discovery and Reporting
+5. Use Kubernetes for Orchestration
+6. Monitoring when things go wrong
+7. Setup Notifications
+8. Backup Manifests?
+9. Rollback and Rollback Pipelines
+10. Canary (ACA)
+10. Chaos Monkey Integration
+11. Auditing and Tracing
+
+
+
+
