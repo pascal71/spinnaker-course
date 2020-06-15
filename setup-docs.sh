@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/usr//bin/sh
 # Run asciidoctor for docs.zip
 
 asciidoctor -b html spinnaker.asc
@@ -9,7 +9,7 @@ zip docs.zip -r images spinnaker.html
 
 # Run asciidoctor for slides.zip
 
-asciidoctor-revealjs-macos spinnaker.asc
+asciidoctor-revealjs spinnaker.asc
 
 # Zip the slides
 
