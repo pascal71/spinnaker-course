@@ -6,7 +6,7 @@ node {
       sh 'asciidoctor -b html spinnaker.asc'
 	}
 	stage('Apply styles to slides') {
-      sh 'asciidoctor-revealjs spinnaker.asc'
+      sh '/usr/local/bin/asciidoctor-revealjs spinnaker.asc'
 	}
 	stage('Build lab-book with asciidoctor') {
       sh 'asciidoctor -b html lab_book.asc'
