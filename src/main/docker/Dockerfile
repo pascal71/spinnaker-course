@@ -6,4 +6,3 @@ RUN mkdir /usr/share/nginx/html/images
 COPY images /usr/share/nginx/html/images
 RUN mkdir /usr/share/nginx/html/DL
 RUN mkdir /usr/share/nginx/html/slides
-COPY slides /usr/share/nginx/html/slides
